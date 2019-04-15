@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+
+    tools:context="bluetooth.mujawar.rafique.BlueToothMainActivity">
+
+    <TextView
+        android:background="@color/colorPrimaryDark"
+        android:gravity="center"
+        android:id="@+id/tvIsBluetoothSupported"
+        android:layout_height="48dp"
+        android:layout_margin="16dp"
+        android:layout_width="match_parent"
+        android:text="IsBluetoothSupported"
+        android:textColor="@android:color/white" />
+
+    <TextView
+        android:background="@color/colorPrimaryDark"
+        android:gravity="center"
+        android:id="@+id/tvEnableBluetooth"
+        android:layout_height="48dp"
+        android:layout_margin="16dp"
+        android:layout_width="match_parent"
+        android:text="EnableBluetooth"
+        android:textColor="@android:color/white" />
+
+
+    <TextView
+        android:background="@color/colorPrimaryDark"
+        android:gravity="center"
+        android:id="@+id/tvCheckPairedDevices"
+        android:layout_height="48dp"
+        android:layout_margin="16dp"
+        android:layout_width="match_parent"
+        android:text="CheckPairedDevices"
+        android:textColor="@android:color/white" />
+
+
+    <TextView
+        android:background="@color/colorPrimaryDark"
+        android:gravity="center"
+        android:id="@+id/tvSetupBluetooth"
+        android:layout_height="48dp"
+        android:layout_margin="16dp"
+        android:layout_width="match_parent"
+        android:text="SetupBluetooth"
+        android:textColor="@android:color/white" />
+
+    <TextView
+        android:background="@color/colorPrimaryDark"
+        android:gravity="center"
+        android:id="@+id/tvActServer"
+        android:layout_height="48dp"
+        android:layout_margin="16dp"
+        android:layout_width="match_parent"
+        android:text="ActServer"
+        android:textColor="@android:color/white" />
+
+    <TextView
+        android:background="@color/colorPrimaryDark"
+        android:gravity="center"
+        android:id="@+id/tvActClient"
+        android:layout_height="48dp"
+        android:layout_margin="16dp"
+        android:layout_width="match_parent"
+        android:text="ActClient"
+        android:textColor="@android:color/white" />
+</LinearLayout>
